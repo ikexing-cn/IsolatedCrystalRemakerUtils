@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "default": {
+    "model": "minecraft:cube_all",
+    "textures": {
+      "all": "icrutils:blocks/fusion_table"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

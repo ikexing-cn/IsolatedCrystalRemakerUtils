@@ -14,6 +14,7 @@ public class TileEntityBase extends TileEntity {
 
     public static void init() {
         register(TileEntityCeremonialColumn.class);
+        register(TileFusionTable.class);
     }
 
     private static void register(Class<? extends TileEntityBase> clazz) {
